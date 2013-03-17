@@ -6,11 +6,12 @@ gem 'rails', '3.2.1'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :production,
-  gem "pg" "0.12.2"
+  gem "pg"
 end
 
 group :development, :test do
-  gem "sqlite3", "1.3.4"
+  gem "sqlite3"
+ end
 
 
 # Gems used only for assets and not required
